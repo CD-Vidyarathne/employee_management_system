@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="employeeService" class="com.emp.hsenid.hr_emp_manage.EmployeeService">
+        <property name="employeeNames">
+            <list>
+                <value>Harry Potter</value>
+                <value>Hermione Granger </value>
+                <value>Ronald Weasley</value>
+                <value>Luna Lovegood</value>
+                <value>Neville Longbottom</value>
+                <value>Daphne Greengrass</value>
+                <value>Draco Malfoy</value>
+            </list>
+        </property>
+        <property name="nicNumbers">
+            <list>
+                <value>8512345678</value>
+                <value>8523456789</value>
+                <value>9034567890</value>
+                <value>9045678901</value>
+                <value>9534567892</value>
+                <value>8545678903</value>
+                <value>9156789012</value>
+            </list>
+        </property>
+        <property name="departments">
+            <list>
+                <value>CORE</value>
+                <value>HR</value>
+                <value>FINANCE</value>
+                <value>CORE</value>
+                <value>HR</value>
+                <value>FINANCE</value>
+                <value>CORE</value>
+            </list>
+        </property>
+    </bean>
+
+</beans>
